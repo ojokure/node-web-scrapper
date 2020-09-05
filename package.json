@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/ojokure/node-web-scrapper/issues"
   },
-  "homepage": "https://github.com/ojokure/node-web-scrapper#readme"
+  "homepage": "https://github.com/ojokure/node-web-scrapper#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cli-table": "^0.3.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
 }
