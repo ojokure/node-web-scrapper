@@ -30,10 +30,10 @@ rp(options)
   });
 
 function getChallengesCompletedAndPushToUserArray(userData) {
-  let i = 0;
+  var i = 0;
   function next() {
     if (i < userData.length) {
-      let options = {
+      var options = {
         url: `https://www.freecodecamp.org/` + userData[i].name,
         transform: (body) => cheerio.load(body),
       };
